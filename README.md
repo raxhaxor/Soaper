@@ -8,7 +8,7 @@ Soaper Module to make Soap Api consuming ease using Ksoap Library.
 ### USAGE ###
   Thread {
             SoapApiHitter.setConfig(
-                url = "http://brentwood.appsondemand.ca/Services/Scanner.asmx",
+                url = "http://-----.site.ca/Services/Scanner.asmx",
                 nameSpace = "http://tempuri.org/"
             )
             val response = SoapApiHitter.callApi(
@@ -35,3 +35,9 @@ Soaper Module to make Soap Api consuming ease using Ksoap Library.
                 false -> Log.e("SoapError", response.message)
             }
         }.start()
+
+### TODO ###
+- RXJAVA Support
+- File Upload
+
+P.S : Will be Updated if i got any free time :p
