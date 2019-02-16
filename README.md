@@ -6,6 +6,7 @@ This README would normally document whatever steps are necessary to get your app
 Soaper Module to make Soap Api consuming ease using Ksoap Library.
 
 ### USAGE ###
+```
   Thread {
             SoapApiHitter.setConfig(
                 url = "http://-----.site.ca/Services/Scanner.asmx",
@@ -35,7 +36,7 @@ Soaper Module to make Soap Api consuming ease using Ksoap Library.
                 false -> Log.e("SoapError", response.message)
             }
         }.start()
-
+```
 ### TODO ###
 - RXJAVA Support
 - File Upload
